@@ -1,0 +1,203 @@
+#pragma once
+//////////////////////////////////////////////////////////////////
+/*-------------------紫外花纹数据声明的头文件-------------------*/
+//////////////////////////////////////////////////////////////////
+
+extern int CHN_DATA[7][7];
+extern int USA_DATA[1][7];
+extern int IND_DATA[1][7];
+extern int BRA_DATA[2][7];
+extern int CAN_DATA[1][7];
+extern int AUS_DATA[3][7];
+extern int MEX_DATA[3][7];
+extern int CHE_DATA[1][7];
+extern int THA_DATA[3][7];
+extern int ISR_DATA[3][7];
+extern int ZAF_DATA[1][7];
+extern int COL_DATA[1][7];
+extern int PAK_DATA[1][7];
+extern int CHL_DATA[2][7];
+extern int BGD_DATA[1][7];
+extern int EGY_DATA[1][7];
+extern int VNM_DATA[2][7];
+extern int PER_DATA[2][7];
+extern int IRQ_DATA[1][7];
+extern int KAZ_DATA[2][7];
+extern int ECU_DATA[1][7];
+extern int LKA_DATA[2][7];
+extern int ETH_DATA[1][7];
+extern int DOM_DATA[2][7];
+extern int GTM_DATA[1][7];
+extern int KEN_DATA[1][7];
+extern int OMN_DATA[3][7];
+extern int MMR_DATA[1][7];
+//extern int PAN_DATA[1][7];
+extern int CRI_DATA[2][7];
+extern int URY_DATA[3][7];
+extern int BLR_DATA[1][7];
+extern int LBY_DATA[1][7];
+extern int GHA_DATA[2][7];
+extern int JOR_DATA[2][7];
+extern int BHR_DATA[1][7];
+extern int CMR_DATA[1][7];
+extern int PRY_DATA[2][7];
+extern int UGA_DATA[1][7];
+extern int ZMB_DATA[1][7];
+extern int SLV_DATA[2][7];
+extern int NPL_DATA[2][7];
+extern int TTO_DATA[2][7];
+extern int CYP_DATA[2][7];
+extern int AFG_DATA[1][7];
+extern int ZWE_DATA[1][7];
+//extern int LAO_DATA[1][7];
+extern int SEN_DATA[1][7];
+extern int MLI_DATA[2][7];
+extern int GEO_DATA[1][7];
+extern int JAM_DATA[2][7];
+extern int GAB_DATA[2][7];
+extern int NIC_DATA[1][7];
+extern int NAM_DATA[1][7];
+extern int BFA_DATA[2][7];
+extern int GNQ_DATA[1][7];
+extern int MOZ_DATA[2][7];
+extern int ARM_DATA[2][7];
+extern int MDG_DATA[2][7];
+extern int MNG_DATA[2][7];
+extern int BEN_DATA[1][7];
+extern int HTI_DATA[1][7];
+extern int MDA_DATA[2][7];
+extern int KGZ_DATA[1][7];
+extern int TJK_DATA[1][7];
+extern int RKS_DATA[1][7];
+extern int DMA_DATA[1][7];
+extern int RWA_DATA[1][7];
+extern int HND_DATA[2][7];
+
+extern int YEM_DATA[3][7];
+extern int SYR_DATA[1][7];
+extern int TUV_DATA[1][7];
+extern int NRU_DATA[1][7];
+extern int PLW_DATA[1][7];
+extern int DMA_DATA[1][7];
+extern int PRK_DATA[1][7];
+extern int CUB_DATA[1][7];
+extern int TON_DATA[1][7];
+extern int VCT_DATA[2][7];
+extern int WSM_DATA[1][7];
+extern int VUT_DATA[1][7];
+extern int KNA_DATA[1][7];
+extern int GRD_DATA[1][7];
+extern int SLB_DATA[1][7];
+extern int GNB_DATA[3][7];
+extern int LCA_DATA[2][7];
+extern int CPV_DATA[2][7];
+extern int DJI_DATA[1][7];
+extern int LBR_DATA[2][7];
+extern int BTN_DATA[1][7];
+extern int LSO_DATA[1][7];
+extern int SUR_DATA[1][7];
+extern int BDI_DATA[2][7];
+extern int GUY_DATA[2][7];
+extern int SLE_DATA[1][7];
+extern int MDV_DATA[2][7];
+extern int BRB_DATA[1][7];
+extern int FJI_DATA[2][7];
+extern int GMB_DATA[2][7];
+extern int SYC_DATA[1][7];
+extern int JPN_DATA[2][7];
+extern int DEU_DATA[2][7];
+extern int GBR_DATA[3][7];
+extern int FRA_DATA[2][7];
+extern int ITA_DATA[4][7];
+extern int CAN_DATA[1][7];
+extern int KOR_DATA[1][7];
+extern int ESP_DATA[2][7];
+extern int IDN_DATA[1][7];
+extern int TUR_DATA[2][7];
+extern int NLD_DATA[2][7];
+extern int ARG_DATA[1][7];
+extern int SWE_DATA[1][7];
+extern int POL_DATA[1][7];
+extern int IRN_DATA[1][7];
+extern int AUT_DATA[1][7];
+extern int NOR_DATA[1][7];
+extern int ARE_DATA[1][7];
+extern int NGA_DATA[1][7];
+extern int ISL_DATA[1][7];
+extern int IRL_DATA[1][7];
+extern int DNK_DATA[1][7];
+extern int SGP_DATA[1][7];
+extern int MYS_DATA[2][7];
+extern int PHL_DATA[3][7];
+extern int FIN_DATA[2][7];
+extern int PRT_DATA[2][7];
+extern int CZE_DATA[1][7];
+extern int ROU_DATA[1][7];
+extern int NZL_DATA[2][7];
+extern int QAT_DATA[1][7];
+extern int HUN_DATA[1][7];
+extern int KWT_DATA[2][7];
+extern int SDN_DATA[1][7];
+extern int SVK_DATA[1][7];
+
+//2018.11.20更新芯片护照(10)
+extern int VEN_DATA[1][7];
+extern int TWN_DATA[2][7];
+extern int MCO_DATA[1][7];
+extern int TCA_DATA[1][7];
+extern int CYM_DATA[1][7];
+extern int SSD_DATA[1][7];
+//extern int VCT_DATA[2][7];
+//extern int GMB_DATA[2][7];
+extern int ATG_DATA[1][7];
+extern int SMR_DATA[2][7];
+//11.21(2)
+//extern int CPV_DATA[2][7];
+//extern int BDI_DATA[2][7];
+//11.22(5)
+extern int MNE_DATA[1][7];
+extern int TGO_DATA[1][7];
+extern int MRT_DATA[1][7];
+extern int SOM_DATA[1][7];
+//extern int MDA_DATA[2][7];
+//11.23(4)
+extern int COG_DATA[1][7];
+extern int MKD_DATA[2][7];
+//extern int ARM_DATA[2][7];
+extern int BHS_DATA[2][7];
+//11.26(4)
+////extern int MOZ_DATA[2][7];
+extern int ALB_DATA[1][7];
+//extern int GAB_DATA[2][7];
+extern int BWA_DATA[1][7];
+//11.27(11)
+extern int BIH_DATA[2][7];
+//extern int CYP_DATA[2][7];
+extern int KHM_DATA[2][7];
+////extern int ISL_DATA[1][7];
+extern int EST_DATA[2][7];
+extern int LVA_DATA[2][7];
+extern int COD_DATA[1][7];
+extern int CIV_DATA[1][7];
+extern int AZE_DATA[1][7];
+extern int SRB_DATA[1][7];
+extern int TKM_DATA[1][7];
+//11.28(4)
+extern int LTU_DATA[1][7];
+extern int UZB_DATA[1][7];
+extern int LBN_DATA[1][7];
+extern int SVN_DATA[2][7];
+//11.29(3)
+extern int HRV_DATA[1][7];
+//extern int URY_DATA[3][7];
+extern int BGR_DATA[1][7];
+//11.30(2)
+extern int PAN_DATA[1][7];
+extern int LUX_DATA[2][7];
+//12.4
+extern int LIE_DATA[1][7];
+//extern int MDG_DATA[2][7];
+extern int LAO_DATA[1][7];
+//12.6
+extern int BRN_DATA[1][7];
+
